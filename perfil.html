@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Perfil do Usuário</title>
+    <link rel="stylesheet" href="perfil.css">
+  </head>
+  <body>
+    <h1>Bem-vindo ao seu perfil!</h1>
+    <button onclick="logout()">Sair</button>
+
+    <script type="module">
+      import { auth } from "./src/firebaseConfig.js";
+      import { signOut } from "firebase/auth";
+
+      function logout() {
+        signOut(auth).then(() => {
+          window.location.href = "/";
+        });
+      }
+
+      window.logout = logout;
+    </script>
+  </body>
+</html>
