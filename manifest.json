@@ -1,7 +1,7 @@
 {
-    "name": "PWA Módulo 2",
-    "short_name": "PWA DS",
-    "start_url": "./index.html",
+    "name": "Meu Perfil",
+    "short_name": "Perfil",
+    "start_url": "./index.html", "./perfil.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#1976d2",
@@ -19,3 +19,4 @@
     ]
 
 }
+
