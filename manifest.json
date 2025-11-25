@@ -1,7 +1,7 @@
 {
     "name": "Meu Perfil",
     "short_name": "Perfil",
-    "start_url": "./index.html", "./perfil.html",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#1976d2",
@@ -19,4 +19,5 @@
     ]
 
 }
+
 
