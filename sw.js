@@ -4,7 +4,8 @@ const FILES_TO_CACHE = [
     "/index.html",
     "/style.css",
     "/main.js",
-    "/manifest.json"
+    "/manifest.json",
+    "/perfil.html"
 ];
 
 self.addEventListener("install", event => {
@@ -18,3 +19,4 @@ self.addEventListener("fetch", event => {
         caches.match(event.request).then(response => response || fetch(event.request))
     );
 });
+
