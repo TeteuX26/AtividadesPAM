@@ -19,7 +19,7 @@ function login() {
     auth.signInWithEmailAndPassword(email, senha)
         .then(() => {
             alert("Login realizado com sucesso!");
-            window.location.href = "Perfil.html";
+            window.location.href = "perfil.html";
         })
         .catch(() => {
             alert("Erro: Login inválido");
@@ -51,3 +51,4 @@ function mostrarLogin() {
     document.getElementById("registroBox").style.display = "none";
     document.getElementById("loginBox").style.display = "block";
 }
+
