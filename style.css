@@ -77,10 +77,5 @@ main {
 .card h2 {
     color: #003391;
     margin-bottom: 10px;
-}
 
-@media(min-width: 700px) {
-    main {
-        grid-template-columns: repeat(3, 1fr);
-    }
 }
